@@ -1,0 +1,73 @@
+body {
+	background-image: url("../images/gotbackground1.jpg");
+	background-position: right;
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: Papyrus, fantasy;
+	background-color: darkgrey;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+/*use # when referring to id tags*/
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	font-family: Papyrus, fantasy;
+	background-color: none;
+	color: white;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+#guessingNumber {
+	font-family: Papyrus, fantasy;
+	background-color: #800000;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#scoreboard {
+	font-family: Papyrus, fantasy;
+	background-color:#ffb84d;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#shields {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+/*use . when referring to class*/
+.shieldImage {
+	height: 150px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#finalScore {
+	font-family: Papyrus, fantasy;
+	background: white;
+	display: inline;
+	padding: 20px;
+}
